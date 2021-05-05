@@ -28,7 +28,7 @@ jobs:
 
     steps:
 
-      - name: Checkout
+      - name: Oranger1plus
         uses: actions/checkout@master
         with:
           ref: master
@@ -52,7 +52,7 @@ jobs:
           # ln -s /mnt/openwrt/feeds ./feeds
           # ln -s /mnt/openwrt/staging_dir ./staging_dir
           df -h
-      - name: Update feeds
+      - name: Oranger1plus
         run: |
           ./scripts/feeds update -a
           ./scripts/feeds install -a
